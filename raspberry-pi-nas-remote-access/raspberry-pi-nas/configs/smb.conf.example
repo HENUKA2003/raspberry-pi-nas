@@ -1,0 +1,14 @@
+# Example Samba Configuration
+
+# Add a share similar to the following to /etc/samba/smb.conf
+
+[NAS]
+    path = /path/to/your/storage
+    browseable = yes
+    read only = no
+    valid users = kid03
+    force user = kid03
+
+# IMPORTANT:
+# Replace the path with your actual storage path.
+# Do not upload real passwords or sensitive configuration.
